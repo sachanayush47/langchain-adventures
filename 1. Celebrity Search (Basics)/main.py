@@ -92,5 +92,8 @@ if input_text:
     with st.expander('Person Memory'):
         st.write(person_memory.buffer)
         
+    with st.expander('DOB Memory'):
+        st.write(dob_memory.buffer)
+        
     with st.expander('Events Memory'):
         st.write(events_memory.buffer)
